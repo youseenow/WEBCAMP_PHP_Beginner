@@ -20,7 +20,7 @@ class クラス名 {
 
 
 
-$obj = new クラス名;
+$obj = new クラス名();
 var_dump($obj);
 $obj->関数();
 echo $obj->$変数;
