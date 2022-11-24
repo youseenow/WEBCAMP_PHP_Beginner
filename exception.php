@@ -2,17 +2,17 @@
 
 
 
-//try {
-//    $obj = new SplFileObject('dummy');
-//    echo "例外が起きたあとの処理。ここは通る？<br>";
-//} catch(\Throwable $e) {
-//    echo "例外が発生したらここを通る<br>";
-//    var_dump($e->getMessage());
-//}
-//echo "fin";
-//
-//
-//echo "<br><br>";
+try {
+    $obj = new SplFileObject('dummy');
+    echo "例外が起きたあとの処理。ここは通る？<br>";
+} catch(\Throwable $e) {
+    echo "例外が発生したらここを通る<br>";
+    var_dump($e->getMessage());
+}
+echo "fin";
+
+
+echo "<br><br>";
 
 
 try {
