@@ -8,7 +8,7 @@ $k = 0;
 
 
 while($i < 10000) {
-    echo "{$k}<br>";
+    echo "{$k}\n";
     $k = $i + $j;
     $i = $j;
     $j = $k;
